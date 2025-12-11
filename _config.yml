@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Eric Song"
+title                    : "Eric Jialong Song"
 title_separator          : "-"
-name                     : &name "Eric Song"
-description              : &description "Undergraduate Student at UC San Diego"
+name                     : &name "Eric Jialong Song"
+description              : &description "Masters student at the University of California, San Diego"
 url                      : https://ejsong37.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Eric Song"
+  name             : "Eric Jialong Song"
   avatar           : "profile.png"
-  bio              : "Undergraduate Student at the University of California, San Diego"
+  bio              : "Masters at the University of California, San Diego"
   location         : "La Jolla, CA"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
