@@ -7,9 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-I'm a fourth-year undergraduate Data Science and Mathematics-Computer Science student at The University of Califonia, San Diego (UCSD). I am also an undergraduate researcher at the Scripps Translational Research Instutite advised by Pejman Mohammadi using probabilistic machine learning methods and statistical models to analyze regulatory variation in large scale genomics and their applications in rare diease diagnoistics and precision medicine.
-
 I am a masters student at the University of California, San Diego (UCSD). My research interests are broadly probabilistic methods, deep generative models, causal inference and etc and their applications in computational biology and decision making. More specifically, I am interested in the following problems:
 
 
