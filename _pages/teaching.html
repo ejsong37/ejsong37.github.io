@@ -1,4 +1,5 @@
 ---
+layout: archive
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
@@ -8,12 +9,12 @@ I have supported the following courses at UC San Diego.
 
 {% assign teaching_entries = site.teaching | sort: "sort_order" %}
 {% for post in teaching_entries %}
-### [{{ post.title }}]({{ post.url | relative_url }})
-
-{% if post.instructor %}**Instructor:** {{ post.instructor }}{% endif %}
-
-{% if post.quarters %}**Quarters taught:** {{ post.quarters }}{% endif %}
+## [{{ post.title }}]({{ post.url | relative_url }})
 
 {% if post.summary %}{{ post.summary }}{% endif %}
+
+{% if post.instructor %}**Professor:** {{ post.instructor }}{% endif %}
+
+{% if post.quarters %}**Quarters taught:** {{ post.quarters }}{% endif %}
 
 {% endfor %}
