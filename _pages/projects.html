@@ -1,0 +1,13 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+---
+
+A selection of research and technical projects.
+
+{% assign project_entries = site.projects | sort: "order" %}
+{% for post in project_entries %}
+  {% include archive-single.html %}
+{% endfor %}

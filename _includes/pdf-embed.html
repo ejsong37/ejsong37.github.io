@@ -1,0 +1,14 @@
+{% assign pdf_src = include.src | relative_url %}
+{% assign pdf_height = include.height | default: "900" %}
+
+<div class="pdf-embed" style="margin: 1.5rem 0;">
+  <iframe
+    src="{{ pdf_src }}"
+    title="{{ include.title | default: 'Embedded PDF' }}"
+    width="100%"
+    height="{{ pdf_height }}"
+    style="border: 1px solid #d5d5d5; border-radius: 6px;"
+  ></iframe>
+</div>
+
+<p><a href="{{ pdf_src }}" target="_blank" rel="noopener">Open PDF in a new tab</a></p>
